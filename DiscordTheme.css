@@ -76,10 +76,14 @@
 .title_f75fb0 {
     padding: 0px 0px 0px 16px !important;
     border-bottom: 1px solid black;
+    background: #313131 !important;
+    height: 49px !important;
+    box-shadow: inset 1px 1px 1px gray !important;
 }
 
 .subtitleContainer_f75fb0 {
     height: 20px !important;
+    box-shadow: 0px -1px 3px white !important;
 }
 
 
@@ -144,6 +148,7 @@
 
 .channel__972a0 .nameAndDecorators__20a53 {
     color: white;
+    text-shadow: 0px 1px 2px black !important;
 }
 
 .activityStatusText__972a0 {
@@ -152,6 +157,7 @@
 
 .headerText__99e7c {
     color: white;
+    text-shadow: 0px 1px 2px black !important;
 }
 
 .clickable__9293f .icon__9293f {
@@ -170,6 +176,7 @@
     background-color: rgba(0,0,0,0.8);
     border-bottom: 1px solid black;
     height: 49px;
+    box-shadow: inset 1px 1px 1px gray !important;
 }
 
 .panels__5e434 {
@@ -178,7 +185,7 @@
     bottom: 0px;
     border-top: 1px solid black;
     background-color: #313131;
-    box-shadow: inset 0px 1px 2px gray !important;
+    box-shadow: inset 0px 1px 1px gray !important;
 }
 
 .channelTextArea_f75fb0 {
@@ -195,6 +202,7 @@
 .wrapper__44b0c {
     border: 1px solid black;
     background-color: black;
+    border-radius: 1px !important;
 }
 
 /* Online*/
@@ -279,7 +287,7 @@
     border-radius: 0px !important;
     border-right: none;
     background: rgba(0,0,0,0.6);
-    box-shadow: 0px 1px 1px darkgray inset !important;
+    box-shadow: 0px 1px 1px gray inset !important;
 }
 
 .toolbar__9293f .iconWrapper__9293f:first-child {
@@ -290,4 +298,60 @@
 .toolbar__9293f .iconWrapper__9293f:nth-child(5) {
     border-right: 1px solid black !important;
     border-radius: 0px 4px 4px 0px !important;
+}
+
+.chat_f75fb0 {
+    border-top: none !important;
+}
+
+.children__9293f:after {
+    background: none !important;
+}
+
+.container__9293f * {
+    color: white !important;
+    text-shadow: 0px 1px 2px black;
+}
+
+.dot__9293f {
+    display: none;
+}
+
+.akaBadge__488b1 {
+    color: black !important;
+    border-radius: 2px !important;
+    text-shadow: none;
+}
+
+.searchBar_c322aa {
+    border-radius: 3px !important;
+    border: 1px solid gray;
+    background-color: #252525;
+}
+
+.button_a22cb0 {
+    border-radius: 3px !important;
+    border: 1px solid gray;
+    background-color: #252525;
+    color: white;
+    text-shadow: 0px 1px 2px black;
+}
+
+.button_a22cb0:hover {
+    background-color: #444444;
+    color: white;
+    text-shadow: 0px 1px 2px black;
+}
+
+.sidebar__5e434::after {
+    content: none !important;
+}
+
+.closeButton__972a0 {
+    border: 1px solid gray;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.truncated_c9d15c {
+    color: white;
 }
